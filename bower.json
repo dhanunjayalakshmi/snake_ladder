@@ -1,0 +1,21 @@
+{
+  "name": "snake_ladder",
+  "description": "Simple web snake and ladder game",
+  "main": "index.js",
+  "authors": [
+    "Dhanunjaya Lakshmi"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dhanunjayalakshmi/snake_ladder",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
