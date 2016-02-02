@@ -13,6 +13,15 @@
       width: 30vh;
       padding-bottom: 4vh;
       cursor: pointer; }
+    #initial #landing .coins p {
+      font-size: 3vh; }
+    #initial #landing .coins .score {
+      text-align: center;
+      height: 5vmin;
+      width: 5vmin;
+      margin-left: 3vh;
+      background-color: #ecf0f5;
+      border: 1px solid #cbd0d3; }
     #initial #landing .coins .system {
       display: inline-block;
       text-align: center;

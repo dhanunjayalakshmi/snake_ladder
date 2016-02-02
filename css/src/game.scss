@@ -20,6 +20,17 @@
         cursor: pointer;
       }
       .coins {
+        p{
+          font-size: 3vh;
+        }
+        .score{
+          text-align: center;
+          height: 5vmin;
+          width: 5vmin;
+          margin-left: 3vh;
+          background-color: #ecf0f5;
+          border: 1px solid #cbd0d3;
+        }
         .system {
           display: inline-block;
           text-align: center;

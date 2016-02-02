@@ -42,6 +42,7 @@ Game = {
       return setTimeout(function() {
         Game.randomComp = Math.floor(Math.random() * 6) + 1;
         console.log("computer " + Game.randomComp);
+        $('.compScore').html(Game.randomComp);
         if (Game.randomComp === 6) {
           Game.scoreUpdate(Game.randomComp);
           return Game.computerTurn();
@@ -74,6 +75,7 @@ Game = {
     if (!Game.over) {
       Game.randomPlay = Math.floor(Math.random() * 6) + 1;
       console.log("player " + Game.randomPlay);
+      $('.playScore').html(Game.randomPlay);
       if (Game.randomPlay !== 6) {
         Game.scoreUpdate(Game.randomPlay);
         Game.turn = false;
