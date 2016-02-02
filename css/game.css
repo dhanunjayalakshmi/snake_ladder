@@ -35,7 +35,7 @@
       transform: rotate(10deg); }
     #board .images .img3 {
       position: absolute;
-      left: 53vh;
+      left: 42vh;
       top: -98vh;
       height: 54vh;
       width: 36vh;
@@ -49,8 +49,8 @@
       transform: rotate(15deg); }
     #board .images .img5 {
       position: absolute;
-      left: 76vh;
+      left: 84vh;
       top: -57vh;
       height: 45vh;
       width: 11vh;
-      transform: rotate(15deg); }
+      transform: rotate(14deg); }
