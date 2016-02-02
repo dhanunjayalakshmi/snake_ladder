@@ -11,13 +11,14 @@
     display: inline-block;
     position: relative;
     top: -30vh;
-    left: 13vh;
+    left: 15vh;
 
-    .dice{
-      height: 30vh;
-      width: 30vh;
-      padding-bottom: 4vh;
-    }
+      .dice{
+        height: 30vh;
+        width: 30vh;
+        padding-bottom: 4vh;
+        cursor: pointer;
+      }
       .coins {
         .system {
           display: inline-block;

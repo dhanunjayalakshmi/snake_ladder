@@ -7,11 +7,12 @@
     display: inline-block;
     position: relative;
     top: -30vh;
-    left: 13vh; }
+    left: 15vh; }
     #initial #landing .dice {
       height: 30vh;
       width: 30vh;
-      padding-bottom: 4vh; }
+      padding-bottom: 4vh;
+      cursor: pointer; }
     #initial #landing .coins .system {
       display: inline-block;
       text-align: center;
