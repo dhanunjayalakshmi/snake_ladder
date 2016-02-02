@@ -20,9 +20,9 @@ Game =
   checkWinning: (score) ->
     if(score >= 100)
       if Game.turn
-        console.log "Player Wins"
+        $('.displayMesg').html("Congratulations!!! You win the game")
       else
-        console.log "Computer Wins"
+        $('.displayMesg').html("Computer win the game")
       Game.over = true
   computerTurn: ->
     if !Game.over
@@ -36,7 +36,7 @@ Game =
         else
           Game.scoreUpdate(Game.randomComp)
           Game.turn = true
-      ,1000
+      ,2500
   fillColor: (score) ->
     classVar = '.'+score
     if Game.turn
