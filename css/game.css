@@ -1,70 +1,96 @@
 * {
   box-sizing: border-box; }
 
-#board {
-  margin: 0 auto;
-  width: 100vmin;
-  text-align: center;
-  position: relative;
-  overflow: hidden; }
-  #board .row {
-    height: 10vmin;
-    text-align: center; }
-    #board .row .cell {
-      text-align: center;
+#initial {
+  margin: 0 auto; }
+  #initial #landing {
+    display: inline-block;
+    position: relative;
+    top: -30vh;
+    left: 13vh; }
+    #initial #landing .dice {
+      height: 30vh;
+      width: 30vh;
+      padding-bottom: 4vh; }
+    #initial #landing .coins .system {
       display: inline-block;
-      width: 10vmin;
+      text-align: center;
+      margin-right: 5vh; }
+      #initial #landing .coins .system i {
+        font-size: 5vh;
+        color: blue; }
+    #initial #landing .coins .player {
+      display: inline-block;
+      text-align: center; }
+      #initial #landing .coins .player i {
+        font-size: 5vh;
+        color: red; }
+  #initial #board {
+    width: 100vmin;
+    left: 25vh;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden; }
+    #initial #board .row {
       height: 10vmin;
-      background-color: #ecf0f5;
-      border: 1px solid #cbd0d3; }
-  #board .images {
-    position: absolute;
-    margin: 0 auto; }
-    #board .images .img1 {
+      text-align: center; }
+      #initial #board .row .cell {
+        text-align: center;
+        display: inline-block;
+        width: 10vmin;
+        height: 10vmin;
+        background-color: #ecf0f5;
+        border: 1px solid #cbd0d3; }
+    #initial #board .images {
       position: absolute;
-      top: -68vh;
-      transform: rotate(44deg);
-      height: 27vh;
-      width: 50vh; }
-    #board .images .img2 {
-      position: absolute;
-      left: 36vh;
-      top: -35vh;
-      height: 34vh;
-      width: 17vh;
-      transform: rotate(10deg); }
-    #board .images .img3 {
-      position: absolute;
-      left: 42vh;
-      top: -98vh;
-      height: 54vh;
-      width: 36vh;
-      transform: rotate(-23deg); }
-    #board .images .img4 {
-      position: absolute;
-      left: 76vh;
-      top: -57vh;
-      height: 45vh;
-      width: 11vh;
-      transform: rotate(15deg); }
-    #board .images .img5 {
-      position: absolute;
-      left: 84vh;
-      top: -57vh;
-      height: 45vh;
-      width: 11vh;
-      transform: rotate(14deg); }
-    #board .images .img6 {
-      position: absolute;
-      left: 13vh;
-      top: -88vh;
-      height: 57vh;
-      width: 25vh;
-      transform: rotate(39deg); }
-    #board .images .img7 {
-      position: absolute;
-      left: 82vh;
-      top: -98vh;
-      height: 36vh;
-      width: 7vh;
-      transform: rotate(-31deg); }
+      margin: 0 auto; }
+      #initial #board .images .img1 {
+        position: absolute;
+        top: -68vh;
+        transform: rotate(44deg);
+        height: 27vh;
+        width: 50vh; }
+      #initial #board .images .img2 {
+        position: absolute;
+        left: 36vh;
+        top: -35vh;
+        height: 34vh;
+        width: 17vh;
+        transform: rotate(10deg); }
+      #initial #board .images .img3 {
+        position: absolute;
+        left: 42vh;
+        top: -98vh;
+        height: 54vh;
+        width: 36vh;
+        transform: rotate(-23deg); }
+      #initial #board .images .img4 {
+        position: absolute;
+        left: 76vh;
+        top: -57vh;
+        height: 45vh;
+        width: 11vh;
+        transform: rotate(15deg); }
+      #initial #board .images .img5 {
+        position: absolute;
+        left: 84vh;
+        top: -57vh;
+        height: 45vh;
+        width: 11vh;
+        transform: rotate(14deg); }
+      #initial #board .images .img6 {
+        position: absolute;
+        left: 13vh;
+        top: -88vh;
+        height: 57vh;
+        width: 25vh;
+        transform: rotate(39deg); }
+      #initial #board .images .img7 {
+        position: absolute;
+        left: 82vh;
+        top: -98vh;
+        height: 36vh;
+        width: 7vh;
+        transform: rotate(-31deg); }

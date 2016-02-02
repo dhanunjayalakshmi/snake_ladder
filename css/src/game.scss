@@ -2,84 +2,125 @@
   box-sizing: border-box;
 }
 
-#board{
+#initial{
   margin: 0 auto;
-  width: 100vmin;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  // width: 100vmin;
 
-  .row{
-    height: 10vmin;
-    text-align: center;
+  #landing{
+    // width: 20vmin;
+    display: inline-block;
+    position: relative;
+    top: -30vh;
+    left: 13vh;
 
-    .cell{
-      text-align: center;
-      display: inline-block;
-      width: 10vmin;
-      height: 10vmin;
-      background-color: #ecf0f5;
-      border: 1px solid #cbd0d3;
+    .dice{
+      height: 30vh;
+      width: 30vh;
+      padding-bottom: 4vh;
     }
+      .coins {
+        .system {
+          display: inline-block;
+          text-align: center;
+          margin-right: 5vh;
+          i{
+            font-size: 5vh;
+            color: blue;
+          }
+        }
+        .player {
+          display: inline-block;
+          text-align: center;
+          i{
+            font-size: 5vh;
+            color:red;
+          }
+        }
+      }
   }
 
-  .images{
-    position: absolute;
+
+  #board{
+    width: 100vmin;
+    left: 25vh;
     margin: 0 auto;
-    .img1{
-      position: absolute;
-      top: -68vh;
-      transform: rotate(44deg);
-      height: 27vh;
-      width: 50vh;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    .row{
+      height: 10vmin;
+      text-align: center;
+
+      .cell{
+        text-align: center;
+        display: inline-block;
+        width: 10vmin;
+        height: 10vmin;
+        background-color: #ecf0f5;
+        border: 1px solid #cbd0d3;
+      }
     }
-    .img2{
+
+    .images{
       position: absolute;
-      left: 36vh;
-      top: -35vh;
-      height: 34vh;
-      width: 17vh;
-      transform: rotate(10deg);
-    }
-    .img3{
-      position: absolute;
-      left: 42vh;
-      top: -98vh;
-      height: 54vh;
-      width: 36vh;
-      transform: rotate(-23deg);
-    }
-    .img4{
-      position: absolute;
-      left: 76vh;
-      top: -57vh;
-      height: 45vh;
-      width: 11vh;
-      transform: rotate(15deg);
-    }
-    .img5{
-      position: absolute;
-      left: 84vh;
-      top: -57vh;
-      height: 45vh;
-      width: 11vh;
-      transform: rotate(14deg);
-    }
-    .img6{
-      position: absolute;
-      left: 13vh;
-      top: -88vh;
-      height: 57vh;
-      width: 25vh;
-      transform: rotate(39deg);
-    }
-    .img7{
-      position: absolute;
-      left: 82vh;
-      top: -98vh;
-      height: 36vh;
-      width: 7vh;
-      transform: rotate(-31deg);
+      margin: 0 auto;
+      .img1{
+        position: absolute;
+        top: -68vh;
+        transform: rotate(44deg);
+        height: 27vh;
+        width: 50vh;
+      }
+      .img2{
+        position: absolute;
+        left: 36vh;
+        top: -35vh;
+        height: 34vh;
+        width: 17vh;
+        transform: rotate(10deg);
+      }
+      .img3{
+        position: absolute;
+        left: 42vh;
+        top: -98vh;
+        height: 54vh;
+        width: 36vh;
+        transform: rotate(-23deg);
+      }
+      .img4{
+        position: absolute;
+        left: 76vh;
+        top: -57vh;
+        height: 45vh;
+        width: 11vh;
+        transform: rotate(15deg);
+      }
+      .img5{
+        position: absolute;
+        left: 84vh;
+        top: -57vh;
+        height: 45vh;
+        width: 11vh;
+        transform: rotate(14deg);
+      }
+      .img6{
+        position: absolute;
+        left: 13vh;
+        top: -88vh;
+        height: 57vh;
+        width: 25vh;
+        transform: rotate(39deg);
+      }
+      .img7{
+        position: absolute;
+        left: 82vh;
+        top: -98vh;
+        height: 36vh;
+        width: 7vh;
+        transform: rotate(-31deg);
+      }
     }
   }
 }
