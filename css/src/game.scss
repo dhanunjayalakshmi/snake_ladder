@@ -30,14 +30,16 @@
           text-align: center;
           height: 5vmin;
           width: 5vmin;
-          margin-left: 3vh;
+          margin-left: 2vh;
           background-color: #ecf0f5;
           border: 1px solid #cbd0d3;
         }
         .system {
           display: inline-block;
           text-align: center;
-          margin-right: 5vh;
+          padding: 0 0.5vh;
+          margin-left: 4vh;
+          border: 2px solid white;
           i{
             font-size: 5vh;
             color: blue;
@@ -46,6 +48,8 @@
         .player {
           display: inline-block;
           text-align: center;
+          padding: 0 2.5vh;
+          border: 2px solid white;
           i{
             font-size: 5vh;
             color:red;
@@ -56,6 +60,7 @@
           margin-top: 3vh;
           font-size: 3vh;
           color: green;
+          border: 2px solid white;
         }
       }
   }
